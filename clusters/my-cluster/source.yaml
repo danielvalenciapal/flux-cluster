@@ -1,0 +1,11 @@
+---
+apiVersion: source.toolkit.fluxcd.io/v1
+kind: GitRepository
+metadata:
+  name: flux-cluster
+  namespace: flux-system
+spec:
+  interval: 30s
+  ref:
+    branch: master
+  url: http://192.168.3.241:3000/pal-robotics/flux-cluster.git
