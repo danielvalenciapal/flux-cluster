@@ -1,11 +1,11 @@
----
+# clusters/my-cluster/kustomization.yaml
 apiVersion: kustomize.toolkit.fluxcd.io/v1
 kind: Kustomization
 metadata:
   name: flux-cluster
   namespace: flux-system
 spec:
-  interval: 5m0s
+  interval: 1m0s
   path: ./apps
   prune: true
   sourceRef:
