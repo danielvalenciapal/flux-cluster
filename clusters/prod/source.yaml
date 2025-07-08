@@ -1,13 +1,13 @@
-# clusters/my-cluster/source.yaml
 apiVersion: source.toolkit.fluxcd.io/v1
 kind: GitRepository
 metadata:
   name: flux-cluster
   namespace: flux-system
 spec:
-  interval: 30s
+  interval: 1m0s
   url: http://192.168.3.241:3000/pal-robotics/flux-cluster.git
   ref:
     branch: master
   secretRef:
     name: flux-git-auth
+

@@ -4,5 +4,7 @@ metadata:
   name: gitea-charts
   namespace: flux-system
 spec:
-  interval: 1h0m0s
+  interval: 10m
   url: https://dl.gitea.io/charts/
+  timeout: 60s
+
