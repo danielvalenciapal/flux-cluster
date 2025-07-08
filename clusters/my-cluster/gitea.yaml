@@ -11,5 +11,3 @@ spec:
     kind: GitRepository
     name: flux-cluster
   targetNamespace: gitea
-  dependsOn:
-    - name: apps
