@@ -11,6 +11,5 @@ spec:
     kind: GitRepository
     name: flux-cluster
   targetNamespace: gitea
-  dependsOn:
-    - name: helm-repos
+  timeout: 2m
 

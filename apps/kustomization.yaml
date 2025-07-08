@@ -11,3 +11,6 @@ spec:
     kind: GitRepository
     name: flux-cluster
   dependsOn: []
+resources:
+  - helm-repos
+  - gitea
