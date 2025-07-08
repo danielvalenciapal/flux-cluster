@@ -12,4 +12,5 @@ spec:
     kind: GitRepository
     name: flux-cluster
   dependsOn: []
-
+resources:
+  - gitea.yaml
