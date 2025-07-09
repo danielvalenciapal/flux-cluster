@@ -11,4 +11,5 @@ spec:
     kind: GitRepository
     name: flux-cluster
   targetNamespace: flux-system
-
+resources:
+  - gitea-helm-repo.yaml
