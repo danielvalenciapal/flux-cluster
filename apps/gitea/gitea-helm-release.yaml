@@ -18,3 +18,7 @@ spec:
     service:
       http:
         type: LoadBalancer
+    gitea:
+      admin:
+        username: gitea_admin
+        password: r8sA8CPHD9!bt6d
